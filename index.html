@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Socialbook</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/060ec2c6cf.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png"class="logo">
+            <ul>
+                <li><img src="images/notification.png" ></li>
+                <li><img src="images/inbox.png" ></li>
+                <li><img src="images/video.png" ></li>
+            </ul>
+
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="Tropapits/Nath.jpg">
+            </div>
+
+        </div>
+    <!-- settings-menu------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="Tropapits/Nath.jpg">
+                    <div>
+                        <p>Nathaniel Tolentino</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new Design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & support <img src="images/arrow.png" width="10px"></a>
+
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#"> Display * Accesibility <img src="images/arrow.png" width="10px"></a>
+
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#"> Logout <img src="images/arrow.png" width="10px"></a>
+
+                </div>
+            </div>
+            
+
+        </div>
+
+    </nav>
+    
+    <div class="container">
+        <!-- left-sidebar------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="profile.html"><i class="fa-solid fa-user"></i> Profile</a>
+                <a href="#"><img src="images/friends.png"> friends</a>
+                <a href="#"><img src="images/group.png"> Groups</a>
+                <a href="#"><img src="images/marketplace.png"> marketplace</a>
+                <a href="watch.html "><img src="images/watch.png"> watch</a>
+                <a href="#">See more</a>
+             </div>
+             <div class="shortcut-links">
+                <p>Your shortcuts</p>
+                <a href="#"> <img src="images/shortcut-1.png"> Web Developers</a>
+                <a href="#"> <img src="images/shortcut-2.png"> Web Design Course</a>
+                <a href="#"> <img src="images/shortcut-3.png"> Full Stack Development</a>
+                <a href="#"> <img src="images/shortcut-4.png"> Website Experts</a>
+             </div>
+        </div>
+         <!-- main-content------------->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post story</p>
+                </div>
+                <div class="story story2">
+                    <img src="Tropapits/Igpf.jpg">
+                    <p>Kenneth Ignacio</p>
+                </div>
+                <div class="story story3">
+                    <img src="Tropapits/babgpf.jpg">
+                    <p>Jerome Babag</p>
+                </div>
+                <div class="story story4">
+                    <img src="Tropapits/rcpf.jpg">
+                    <p>Roy Villafranca</p>
+                </div>
+                <div class="story story5">
+                    <img src="Tropapits/Akki.jpg">
+                    <p>Akki Mae Reyes</p>
+                </div>
+
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="Tropapits/Nath.jpg">
+                    <div>
+                        <p>Nathaniel Tolentino</p>
+                        <small>Public<i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Nathaniel?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png"> Live Video </a>
+                        <a href="#"><img src="images/photo.png"> Photo/Video </a>
+                        <a href="#"><img src="images/feeling.png"> Feeling/Activity </a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Tropapits/Nath.jpg">
+                        <div>
+                            <p>Nathaniel Tolentino</p>
+                           <span>August 9 2024 4:00 pm</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">The nursing student that captured my heart... <a href="">#Nursingstudent</a><a href="">#OurLadyofFatimaUniversity</a></p>
+                <img src="Tropapits/Nursing.jpg" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png"> 120 </div>
+                        <div><img src="images/comments.png"> 25 </div>
+                        <div><img src="images/share.png"> 20 </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="Tropapits/Nath.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Tropapits/Nath.jpg">
+                        <div>
+                            <p>Nathaniel Tolentino</p>
+                           <span>June 30 2024 at 1:40 pm</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Grade 12 has been an unforgettable journey with all of you. From laughter to lessons, we've shared it all. Until we meet again, let's carry these memories with us as we step into the future. Cheers to new beginnings and lifelong friendships!<a href="">#GRADUATION_DAY</a><a href="">#STICollegeSJDM</a><a href=""> #AIM_HIGH_WITH_STI</a></p>
+                <img src="Tropapits/Graduation.jpg" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 150 </div>
+                        <div><img src="images/comments.png"> 50 </div>
+                        <div><img src="images/share.png"> 15 </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="Tropapits/Nath.jpg"fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Tropapits/Nath.jpg">
+                        <div>
+                            <p>Nathaniel Tolentino</p>
+                           <span>may 30 2024 at 4:00 pm</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Washday ng pitong tupa <a href="">#Washday</a><a href="">#StiCollegeSJDM</a></p>
+                <img src="Tropapits/Pitong Tupa.jpg" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 150 </div>
+                        <div><img src="images/comments.png"> 50 </div>
+                        <div><img src="images/share.png"> 15 </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="Tropapits/Nath.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Tropapits/Nath.jpg">
+                        <div>
+                            <p>Nathaniel Tolentino</p>
+                           <span>December 11 2023 at 3:00 pm</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">MY CHEERLEADER! Congratulations on your amazing performance! You looked so wonderful on the dance stage, full of grace and energy. Keep on shining and showing the world your brilliance!<a href="">#Iloveyousomuch</a><a href=""><div id=""></div></a></p>
+                <img src="Tropapits/Cheerleader.jpg" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 150 </div>
+                        <div><img src="images/comments.png"> 50 </div>
+                        <div><img src="images/share.png"> 15 </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="Tropapits/Nath.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Tropapits/Nath.jpg">
+                        <div>
+                            <p>Nathaniel Tolentino</p>
+                           <span>November 23 2023 at 7:30 pm</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Aalis ng umaga, uuwi ng gabi... <a href="">#Wholeday</a><a href="">#STI</a></p>
+                <img src="Tropapits/gabi.jpg" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 150 </div>
+                        <div><img src="images/comments.png"> 50 </div>
+                        <div><img src="images/share.png"> 15 </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+            </div>
+
+
+                <button type="button" class="load-more-btn"> Load More</button>
+
+
+        </div>  
+        <!-- right-sidebar------------->
+        <div class="right-sidebar">
+            
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+
+                </div>
+                <div class="right-event">
+                    <h4>Christmas Celebration</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>SM Tungko, SJDM BUlacan</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+
+                </div>
+                <div class="right-event">
+                    <h4>Freshman walk</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>QCU San Bartolome </p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+        
+            <div class="online-list">
+                <div class="online">
+                    <img src="Tropapits/Akki.jpg">
+                </div>
+                <p>BABYLALOVES KO</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="Tropapits/Igpf.jpg">
+                </div>
+                <p>Kenneth Ignacio</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="Tropapits/babgpf.jpg">
+                </div>
+                <p>Jerome Babag</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="Tropapits/rcpf.jpg">
+                </div>
+                <p>Roy Villafranca</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <p>Copyright 2021 - blah blah blah</p>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
